@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="8d0265aa-193c-4c90-af70-a6d67a092f12" activeEnvironment="Default" name="Comprehensive Assesment" soapui-version="5.7.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:testSuite id="689796a5-6791-4e6d-92dd-832b70365369" name="TestSuite"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="c2eaab0b-7530-4b82-99c4-6a68c88b829f" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase" searchProperties="true"><con:settings/><con:testStep type="httprequest" name="Get" id="341f5ab5-4fa1-4397-88db-0bbfb0b2785c"><con:settings/><con:config method="GET" xsi:type="con:HttpRequest" id="75a38170-9987-49d9-ada8-f4a9be089098" name="Get" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://restcountries.com/v2/currency/pen</con:endpoint><con:request/><con:assertion type="GroovyScriptAssertion" id="0ff1262c-1ae0-4911-8811-6b508b09249b" name="Capital City Verification"><con:configuration><scriptText>// Verify the Capital city and country subregion
+import groovy.json.JsonSlurper
+def response=messageExchange.response.responseContent
+def output=new JsonSlurper().parseText(response)
+log.info output.subregion
+log.info output.capital
+assert ["Lima"]==output.capital
+</scriptText></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="6ef3b9d1-a425-47b7-afb9-6e19347e83a1" name="Subregion Verification"><con:configuration><scriptText>// Verify the Capital  country subregion
+import groovy.json.JsonSlurper
+def response=messageExchange.response.responseContent
+def output=new JsonSlurper().parseText(response)
+log.info output.subregion
+
+assert ["South America"]==output.subregion</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="2ae047d2-e26d-4903-b7f6-2e8870555e69"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+import jxl.*;
+import jxl.write.*;
+//Creating and Reading the data from xml file
+Workbook book=Workbook.getWorkbook(new File("C:\\Users\\mindc1may216\\Desktop\\ComprehensiveAssesment_M1089191\\Country.xls"))
+Sheet sheet1=book.getSheet(0)
+def getCountryRequest=sheet1.getCell(2,2).getContents()
+log.info getCountryRequest
+//Passing that data to the get Request
+
+def getPetStep=testRunner.testCase.getTestStepByName("Get")
+getPetStep.setPropertyValue("Endpoint",getCountryRequest)
+testRunner.runTestStepByName("Get")</script></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>

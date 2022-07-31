@@ -1,0 +1,28 @@
+ | INF |Clicked on The Search Option
+ | INF |selecting scenario "SelectTheLocation" to run
+ | INF |Web browser and Tide Url is Entered into it 
+ | INF |Clicked on the Location option
+ | INF |Selected the US-English Option
+ | INF |selecting scenario "UserRegistration" to run
+ | INF |Web browser and Tide Url is Entered into it 
+ | INF |Clicked on The Registration Option
+ | INF |Clicked on the SignUp option
+ | INF |selecting scenario "WhatsNew" to run
+ | INF |Web browser and Tide Url is Entered into it 
+ | INF |Clicked on the WhatsNew Option
+ | INF |Clicked on the Click on Learn more
+ | INF |Clicked on the More option and Selected the Ingrediants
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "ContactUs" to run
+ | INF |Web browser and Tide Url is Entered into it 
+ | INF |Clicked on the Contact Us 
+ | INF |selecting scenario "LiveChat" to run
+ | INF |Web browser and Tide Url is Entered into it 
+ | INF |Click on LiveChat
+ | INF |selecting scenario "SaveTheCuponsAndRewards" to run
+ | INF |Web browser and Tide Url is Entered into it 
+ | INF |Clicked on the Cupons and Reward
+ | INF |Clicked on The Save Cupon
+ | INF |selecting scenario "SearchForProducts" to run
+ | INF |Web browser and Tide Url is Entered into it 
+ | INF |The Product name has been Entered

@@ -1,0 +1,134 @@
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "UserRegistration" to run
+ | ERR |Test step failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='firstName']"}
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "UserRegistration" to run
+ | ERR |Test step failedelement click intercepted: Element <a href="https://www.pggoodeveryday.com/signup/tide-coupons/" class="event_internal_link" data-action-detail="https://www.pggoodeveryday.com/signup/tide-coupons/" target="_blank" rel="noreferrer">...</a> is not clickable at point (154, 431). Other element would receive the click: <div class="lilo3746-wrapper lilo3746-lightbox" id="lilo3746-wrapper" style="opacity: 0;">...</div>
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "UserRegistration" to run
+ | ERR |Test step failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='name']"}
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "UserRegistration" to run
+ | ERR |Test step failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@aria-label='text']"}
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "UserRegistration" to run
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "UserRegistration" to run
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "UserRegistration" to run
+ | ERR |Test step failedno such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='lilo3746-close-link lilo3746-close-icon']"}
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "UserRegistration" to run
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "UserRegistration" to run
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "UserRegistration" to run
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "ShopProductsByType" to run
+ | ERR |Test step failedno such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/en-us/shop']"}
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "SearchForProducts" to run
+ | ERR |Test step failedelement click intercepted: Element <button type="submit" aria-label="Sumbit Search">...</button> is not clickable at point (1171, 88). Other element would receive the click: <div class="lilo3746-wrapper lilo3746-lightbox" id="lilo3746-wrapper" style="opacity: 0;">...</div>
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "SearchForProducts" to run
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "SearchForProducts" to run
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "SelectTheLocation" to run
+ | ERR |Test step failedno such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='lilo3746-close-link lilo3746-close-icon']"}
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "SelectTheLocation" to run
+ | ERR |Test step failedelement click intercepted: Element <button>...</button> is not clickable at point (1155, 24). Other element would receive the click: <div class="lilo3746-wrapper lilo3746-lightbox" id="lilo3746-wrapper" style="opacity: 0;">...</div>
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "SelectTheLocation" to run
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "SelectTheLocation" to run
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "UserRegistration" to run
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "SaveTheCuponsAndRewards" to run
+ | ERR |Test step failedelement click intercepted: Element <a href="https://www.pggoodeveryday.com/signup/tide-coupons/" class="event_internal_link" data-action-detail="https://www.pggoodeveryday.com/signup/tide-coupons/" target="_blank" rel="noreferrer">...</a> is not clickable at point (141, 431). Other element would receive the click: <div class="lilo3746-wrapper lilo3746-lightbox" id="lilo3746-wrapper" style="opacity: 0;">...</div>
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "SaveTheCuponsAndRewards" to run
+ | ERR |Test step failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='firstName']"}
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "SaveTheCuponsAndRewards" to run
+ | ERR |Test step failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='First name']"}
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "SaveTheCuponsAndRewards" to run
+ | ERR |Test step failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='First name']"}
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "SaveTheCuponsAndRewards" to run
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "SaveTheCuponsAndRewards" to run
+ | ERR |Test step failedinvalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "SaveTheCuponsAndRewards" to run
+ | ERR |Test step failedno such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='underline text-primaryCta lg:text-base leading-light font-montserratSemiBold font-semibold']"}
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "SaveTheCuponsAndRewards" to run
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "WhatsNew" to run
+ | ERR |Test step failedelement click intercepted: Element <a href="/en-us/shop/type/laundry-pods/tide-hygienic-clean-heavy-duty-10x-power-pods-original" class="button-link event_button_click secondary" data-action-detail="..." target="_self">Learn More</a> is not clickable at point (228, 431). Other element would receive the click: <div class="lilo3746-wrapper lilo3746-lightbox" id="lilo3746-wrapper" style="opacity: 0;">...</div>
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "WhatsNew" to run
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "WhatsNew" to run
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "WhatsNew" to run
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "LiveChat" to run
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "LiveChat" to run
+ | ERR |Test step failedinvalid selector: Unable to locate an element with the xpath expression //button[@class='submitEnabled prechatBtn''] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[@class='submitEnabled prechatBtn'']' is not a valid XPath expression.
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "LiveChat" to run
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "ContactUs" to run
+ | ERR |Test step failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='searchInput']"}
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "ContactUs" to run
+ | ERR |Test step failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Type here to search for answers']"}
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "ContactUs" to run
+ | ERR |Test step failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='text']"}
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "ContactUs" to run
+ | ERR |Test step failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='j_id0:j_id1:j_id2:idForm:j_id592:j_id593:theSearchstring']"}
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "ContactUs" to run
+ | ERR |Test step failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Tide Cupons']"}
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "ContactUs" to run
+ | ERR |Test step failedno such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='fa fa-search']"}
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "ContactUs" to run
+ | ERR |Test step failedno such element: Unable to locate element: {"method":"xpath","selector":"//img[@src='/carehub/resource/1656116714000/GCRWidgetContent/contacts/svg/arroba.svg?orgId=00D80000000PUz7']"}
+  (Session info: chrome=103.0.5060.134)
+ | INF |selecting Feature file "Tide Web Application" to run
+ | INF |selecting scenario "ContactUs" to run
